@@ -1,0 +1,24 @@
+_target_: fusion_bench.method.mingle.c_adamerging.ContinualLayerWiseAdaMerging
+
+init_values: 0.3
+# learning rate
+lr: 1e-4
+optimizer: adam
+batch_size: 16
+num_workers: 16
+max_steps: 50
+seed_sample_number: 5
+# if true, we will use the gradient accumulation across tasks to save memory
+use_tta: true
+fast_dev_run: false
+# shuffle the order of the models
+shuffle_order: true
+# the random seed to use
+seed: 42
+# save the merged model on every step
+save_on_every_step: true
+# evaluate the merged model on every step
+evaluate_on_every_step: true
+
+
+

@@ -1,0 +1,4 @@
+aircraft:
+  _target_: datasets.load_dataset
+  path: Multimodal-Fatima/FGVC_Aircraft_train
+  split: train

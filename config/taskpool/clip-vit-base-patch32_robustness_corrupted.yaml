@@ -1,0 +1,23 @@
+defaults:
+  - CLIPVisionModelTaskPool@: _template
+# corrption can be one of:
+# contrast, gaussian_noise, impulse_noise, jpeg_compression, motion_blur, pixelate, spatter
+corruption: ${corruption}
+
+test_datasets:
+  stanford-cars:
+    _target_: datasets.load_dataset
+    path: tanganke/stanford_cars
+    split: ${...corruption}
+  eurosat:
+    _target_: datasets.load_dataset
+    path: tanganke/eurosat
+    split: ${...corruption}
+  resisc45:
+    _target_: datasets.load_dataset
+    path: tanganke/resisc45
+    split: ${...corruption}
+  gtsrb:
+    _target_: datasets.load_dataset
+    path: tanganke/gtsrb
+    split: ${...corruption}

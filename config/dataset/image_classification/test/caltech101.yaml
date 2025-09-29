@@ -1,0 +1,4 @@
+caltech101:
+  _target_: datasets.load_dataset
+  path: zihuanqiu/Caltech101
+  split: test

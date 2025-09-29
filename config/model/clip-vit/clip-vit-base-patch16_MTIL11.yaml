@@ -1,0 +1,17 @@
+# The 20 task used in the paper: 
+# Wang et al. Localizing Task Information for Improved Model Merging and Compression
+# http://arxiv.org/abs/2405.07813
+defaults:
+  # pre-trained model
+  - clip-vit-base-patch16
+  - clip-vit-base-patch16_aircraft
+  - clip-vit-base-patch16_caltech101
+  - clip-vit-base-patch16_cifar100
+  - clip-vit-base-patch16_dtd
+  - clip-vit-base-patch16_eurosat
+  - clip-vit-base-patch16_oxford_flowers102
+  - clip-vit-base-patch16_food101
+  - clip-vit-base-patch16_mnist
+  - clip-vit-base-patch16_oxford-iiit-pet
+  - clip-vit-base-patch16_stanford-cars
+  - clip-vit-base-patch16_sun397

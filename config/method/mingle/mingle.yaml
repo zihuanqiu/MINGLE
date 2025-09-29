@@ -1,0 +1,41 @@
+_target_: fusion_bench.method.mingle.mingle.MINGLE
+
+# shuffle the order of the models
+shuffle_order: true
+# the random seed to use
+seed: 42
+# save the merged model on every step
+save_on_every_step: false
+# evaluate the merged model on every step
+evaluate_on_every_step: true
+
+save_gate_state: false
+
+constraint_gate: true
+
+# q_proj k_proj v_proj out_proj fc1 fc2
+# lora_layer:
+#   - q_proj
+#   - k_proj
+#   - v_proj
+#   - fc1
+
+lora_layer:
+  - attn
+  - mlp
+
+batch_reduce: true
+# learning rate
+lr: 1e-4
+optimizer: adam
+batch_size: 16
+num_workers: 16
+max_steps: 50
+seed_sample_number: 5
+lora_r: 64
+subspace_k: 3
+gamma: 1
+beta: 0.99
+# if true, we will use the gradient accumulation across tasks to save memory
+# use_grad_accumulate: true
+# fast_dev_run: true

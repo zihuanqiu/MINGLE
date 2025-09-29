@@ -1,0 +1,12 @@
+defaults:
+  - aircraft
+  - caltech101
+  - cifar100
+  - dtd
+  - eurosat
+  - oxford_flowers102
+  - food101
+  - mnist
+  - oxford-iiit-pet
+  - stanford-cars
+  - sun397

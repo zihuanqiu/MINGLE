@@ -1,0 +1,12 @@
+_pretrained_: openai/clip-vit-base-patch16
+aircraft: /data1/zihuanqiu/opcm-main/model_convert/clip-vit-base-patch16_aircraft_seq
+caltech101: /data1/zihuanqiu/opcm-main/model_convert/clip-vit-base-patch16_caltech101_seq
+cifar100: /data1/zihuanqiu/opcm-main/model_convert/clip-vit-base-patch16_cifar100_seq
+dtd: /data1/zihuanqiu/opcm-main/model_convert/clip-vit-base-patch16_dtd_seq
+eurosat: /data1/zihuanqiu/opcm-main/model_convert/clip-vit-base-patch16_eurosat_seq
+oxford_flowers102: /data1/zihuanqiu/opcm-main/model_convert/clip-vit-base-patch16_oxford_flowers102_seq
+food101: /data1/zihuanqiu/opcm-main/model_convert/clip-vit-base-patch16_food101_seq
+mnist: /data1/zihuanqiu/opcm-main/model_convert/clip-vit-base-patch16_mnist_seq
+oxford-iiit-pet: /data1/zihuanqiu/opcm-main/model_convert/clip-vit-base-patch16_oxford-iiit-pet_seq
+stanford-cars: tanganke/clip-vit-base-patch16_stanford-cars
+sun397: tanganke/clip-vit-base-patch16_sun397
