@@ -3,7 +3,7 @@ import os
 os.environ["HF_HOME"] = "/data0/zihuanqiu/huggingface"  # "your hf cache dir"
 # os.environ["HF_DATASETS_OFFLINE"] = "1"
 # os.environ["TRANSFORMERS_OFFLINE"] = "1"
-os.environ["HF_ENDPOINT"] = "https://hf-mirror.com"
+# os.environ["HF_ENDPOINT"] = "https://hf-mirror.com"
 
 from . import (
     constants,
