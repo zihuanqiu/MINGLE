@@ -94,10 +94,12 @@ For the full benchmark codebase and additional functionalities, please refer to 
 
 If you find our work useful, please consider citing:
 ```
-@article{qiu2025mingle,
-  title={MINGLE: Mixture of Null-Space Gated Low-Rank Experts for Test-Time Continual Model Merging},
-  author={Qiu, Zihuan and Xu, Yi and He, Chiyuan and Meng, Fanman and Xu, Linfeng and Wu, Qingbo and Li, Hongliang},
-  journal={arXiv preprint arXiv:2505.11883},
-  year={2025}
+@inproceedings{
+qiu2025mingle,
+title={{MINGLE}: Mixture of Null-Space Gated Low-Rank Experts for Test-Time Continual Model Merging},
+author={Zihuan Qiu and Yi Xu and Chiyuan He and Fanman Meng and Linfeng Xu and Qingbo Wu and Hongliang Li},
+booktitle={The Thirty-ninth Annual Conference on Neural Information Processing Systems},
+year={2025},
+url={https://openreview.net/forum?id=8DCyv8x58O}
 }
 ```
